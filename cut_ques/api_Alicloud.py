@@ -17,8 +17,8 @@ class Sample:
     @staticmethod
     def create_client() -> ocr_api20210707Client:
         config = open_api_models.Config(
-            access_key_id="LTAI5tMXTEwFZPAFSPAg9d5e",
-            access_key_secret="278wFSI2WHiFJMWvwuq1iPdFzV1u4N"
+            access_key_id="id",
+            access_key_secret="secret"
         )
         config.endpoint = f'ocr-api.cn-hangzhou.aliyuncs.com'
         return ocr_api20210707Client(config)
